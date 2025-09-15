@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>계산기(레이아웃)</title>
+  <link rel="stylesheet" href="계산기.css" />
+</head>
+<body>
+  <main class="calculator">
+    <!-- 상단 표시 영역 -->
+    <div class="display" aria-live="polite">0</div>
+
+    <!-- 버튼 영역 -->
+    <div class="buttons" role="group" aria-label="계산기 버튼">
+      <!-- 기능 버튼 -->
+      <button type="button" class="button function">C</button>
+      <button type="button" class="button function">±</button>
+      <button type="button" class="button function">%</button>
+      <button type="button" class="button operator">/</button>
+
+      <!-- 숫자/기호 -->
+      <button type="button" class="button number">7</button>
+      <button type="button" class="button number">8</button>
+      <button type="button" class="button number">9</button>
+      <button type="button" class="button operator">*</button>
+
+      <button type="button" class="button number">4</button>
+      <button type="button" class="button number">5</button>
+      <button type="button" class="button number">6</button>
+      <button type="button" class="button operator">-</button>
+
+      <button type="button" class="button number">1</button>
+      <button type="button" class="button number">2</button>
+      <button type="button" class="button number">3</button>
+      <button type="button" class="button operator">+</button>
+
+      <!-- 마지막 줄 -->
+      <button type="button" class="button number zero">0</button>
+      <button type="button" class="button">.</button>
+      <button type="button" class="button">=</button>
+    </div>
+  </main>
+</body>
+</html>

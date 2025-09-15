@@ -1,0 +1,58 @@
+/* 모든 요소 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9fafb;
+}
+
+/* 계산기 전체 */
+.calculator-container {
+  width: 400px;
+  border: 2px solid green; /* 큰 초록 테두리 */
+  padding: 16px;
+  position: relative;
+}
+
+/* 상단 원 3개 */
+.circles {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.red {
+  background: #ef4444;
+}
+.yellow {
+  background: #facc15;
+}
+.green {
+  background: #22c55e;
+}
+
+/* display 영역 */
+.display {
+  height: 100px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+/* buttons 영역 */
+.buttons {
+  height: 400px;
+  border: 2px solid blue;
+}
